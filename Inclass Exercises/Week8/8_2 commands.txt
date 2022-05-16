@@ -1,0 +1,4 @@
+db.sailors.insertOne({"sid":"1","name":"Sue","age":"22","rating":"7"})
+db.sailors.insertOne({"sid":"2","name":"Mary","age":"25","rating":"5"})
+db.sailors.find({name:"Sue"})
+db.sailors.find({name:"Mary"})
